@@ -238,7 +238,7 @@ ul {
 .using .row .info p {
     color: rgb(68, 68, 68);
     font-family: sans-serif;
-    margin-bottom: 16px;
+    margin-bottom: 70px;
 }
 
 .using .row .info a {
@@ -763,3 +763,45 @@ ul {
 
 
 }
+
+/* ============================ */
+
+/* .bulb{
+    align-items: center;
+}
+.bulb i{
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+    color: black;
+    cursor: pointer;
+}
+.dark{
+    background-color: black;
+    color: #fff;
+}
+.bulb i.yellow{
+    color: yellow;
+    text-shadow: 0px 0px 10px yellow;
+}
+li .bulb{
+    width: 100%;
+} */
+
+#darkmode {
+    width: 8%;
+    text-align: end;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.dark-mode {
+    background-color: #000;
+    --text-color:#fff;
+    --ptext-color:#949090;
+    --background-color:#222;
+    color: #eee;
+  }
+  .bulb i{
+    color: black;
+    cursor: pointer;
+  }
